@@ -141,7 +141,7 @@ body {
 }
 
 .message-content {
-    background: white;
+    background: rgb(159, 159, 159);
     padding: 12px 16px;
     border-radius: 10px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
@@ -162,12 +162,12 @@ body {
 }
 
 .message-text {
-    color: #1f2937;
+    color: #ffffff;
     line-height: 1.5;
 }
 
 .message.own .message-content {
-    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    background: linear-gradient(135deg, #828284 0%, #252426 140%);
     color: white;
     margin-left: auto;
     max-width: 70%;
@@ -192,6 +192,7 @@ body {
     font-size: 14px;
     transition: border 0.3s;
     background-color: rgb(96, 95, 95);
+    color: white;
 }
 
 #message-input:focus {
@@ -233,10 +234,10 @@ body {
 }
 
 #chat-messages::-webkit-scrollbar-thumb {
-    background: #667eea;
+    background: #5b5b5b;
     border-radius: 10px;
 }
 
 #chat-messages::-webkit-scrollbar-thumb:hover {
-    background: #764ba2;
+    background: #323232;
 }

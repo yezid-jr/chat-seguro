@@ -175,6 +175,6 @@ def handle_disconnect():
     print(f'Usuario web desconectado: {user_id}')
 
 if __name__ == '__main__':
-    print('[+] Servidor web iniciando en http://0.0.0.0:5000')
+    print('[+] Servidor web iniciando en http://localhost:5000')
     print('[+] Asegúrate de que el servidor de chat esté corriendo en el puerto 65432')
     socketio.run(app, host='0.0.0.0', port=5000, debug=True, allow_unsafe_werkzeug=True)
